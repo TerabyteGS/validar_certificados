@@ -4,17 +4,15 @@
     "nome": "Antonio Guilherme do Nascimento Martins",
     "curso": "Machine Learning e Otimização de Processos",
     "data": "23/03/2025",
-    "carga_horaria": "2h",
-    "instrutor": "Gabriel Chemical Engineer",
-    "hash": "a1b2c3d4e5"  // Hash para validação cruzada
+    "carga_horaria": "2 horas",
+    "instrutor": "Antonio Gabriel de Oliveira Soares"
   },
   {
     "codigo": "Z4P8R6YQ",
     "nome": "Robson Mateus de Medeiros Braga",
     "curso": "Machine Learning e Otimização de Processos",
     "data": "23/03/2025",
-    "carga_horaria": "2h",
-    "instrutor": "Gabriel Chemical Engineer",
-    "hash": "f6g7h8i9j0"
+    "carga_horaria": "2 horas",
+    "instrutor": "Antonio Gabriel de Oliveira Soares"
   }
 ]
