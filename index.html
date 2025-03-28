@@ -1,0 +1,31 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <title>Verificar Certificado</title>  
+</head>  
+<body>  
+  <h1>Valide seu certificado</h1>  
+  <input type="text" id="codigo" placeholder="Digite o código">  
+  <button onclick="validar()">Verificar</button>  
+  <div id="resultado"></div>  
+
+  <script>  
+    async function validar() {  
+      const codigo = document.getElementById('codigo').value;  
+      const response = await fetch('database.json');  
+      const certificados = await response.json();  
+      const certificado = certificados.find(c => c.codigo === codigo);  
+
+      if (certificado) {  
+        document.getElementById('resultado').innerHTML = `  
+          <p><strong>Nome:</strong> ${certificado.nome}</p>  
+          <p><strong>Curso:</strong> ${certificado.curso}</p>  
+          <p><strong>Data:</strong> ${certificado.data}</p>  
+        `;  
+      } else {  
+        document.getElementById('resultado').innerHTML = "Código inválido.";  
+      }  
+    }  
+  </script>  
+</body>  
+</html>  
