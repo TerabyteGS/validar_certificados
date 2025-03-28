@@ -1,18 +1,16 @@
-[
-  {
-    "codigo": "ML7X9F2K",
-    "nome": "Antonio Guilherme do Nascimento Martins",
-    "curso": "Machine Learning e Otimização de Processos",
-    "data": "23/03/2025",
-    "carga_horaria": "2 horas",
-    "instrutor": "Antonio Gabriel de Oliveira Soares"
+[  
+  {  
+    "codigo": "GUI-2025-739",  
+    "nome": "Antonio Guilherme do Nascimento Martins",  
+    "curso": "Machine Learning e Otimização de Processos",  
+    "data": "23/03/2025",  
+    "carga_horaria": "2h"  
   },
-  {
-    "codigo": "Z4P8R6YQ",
-    "nome": "Robson Mateus de Medeiros Braga",
-    "curso": "Machine Learning e Otimização de Processos",
-    "data": "23/03/2025",
-    "carga_horaria": "2 horas",
-    "instrutor": "Antonio Gabriel de Oliveira Soares"
-  }
-]
+  {  
+    "codigo": "ROB-2025-412",  
+    "nome": "Robson Mateus de Medeiros Braga",  
+    "curso": "Machine Learning e Otimização de Processos",  
+    "data": "23/03/2025",  
+    "carga_horaria": "2h"  
+  }  
+]  
